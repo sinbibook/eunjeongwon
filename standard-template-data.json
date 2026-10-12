@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "generatedAt": "2026-09-22T05:08:28.495519770Z",
+    "version": "1.1.0",
+    "generatedAt": "2026-10-12T03:09:26.312349357Z",
     "templateType": "trip_d",
     "propertyId": "9c4568a9-9d9f-4c50-8541-d21d7d8dcf38",
     "homepageId": "84a0ec09-752d-4caa-8e80-5881294d733a"
@@ -1822,7 +1822,7 @@
       "usageGuide": "",
       "group": null,
       "size": 82.65,
-      "baseOccupancy": 2,
+      "baseOccupancy": 4,
       "maxOccupancy": 7,
       "totalRoomCount": {
         "bedroom": 1,
@@ -1851,10 +1851,10 @@
         }
       ],
       "amenities": [
+        "취사시설/도구",
         "TV",
         "남녀공용",
         "욕실용품",
-        "취사시설/도구",
         "전기밥솥",
         "에어컨",
         "냉장고",
@@ -1880,7 +1880,7 @@
         {
           "thumbnail": [
             {
-              "id": "4372747c-4947-4f9a-922e-c206ed621fc2",
+              "id": "01a0cd52-648f-710d-a481-641e7f093007",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/pv6QHJkXmITZ.jpg",
               "sortOrder": 1,
               "description": "",
@@ -1890,7 +1890,7 @@
           ],
           "interior": [
             {
-              "id": "6bddbc9e-a01b-4f17-b626-5b1cac6860ad",
+              "id": "01a0cd52-648f-713a-ab3d-d7582a48ec3e",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/UpTMhSVAYrl1.jpg",
               "sortOrder": 2,
               "description": "",
@@ -1898,7 +1898,7 @@
               "blockId": null
             },
             {
-              "id": "9770a098-63c0-44ab-86cc-e0e52b1cad8f",
+              "id": "01a0cd52-648f-717f-9e14-9586d962efee",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/wGJt6iUXIzLf.jpg",
               "sortOrder": 3,
               "description": "",
@@ -1906,7 +1906,7 @@
               "blockId": null
             },
             {
-              "id": "29de80e0-c2e1-4927-bd46-725fdb72b59d",
+              "id": "01a0cd52-648f-71d1-bc89-efa51bd42ddd",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/0sDpXOq3jIkK.jpg",
               "sortOrder": 4,
               "description": "",
@@ -1914,7 +1914,7 @@
               "blockId": null
             },
             {
-              "id": "446417fe-0ea2-4b8d-b018-e658ca922dfc",
+              "id": "01a0cd52-648f-7228-92b3-bc0b4f8ff862",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/amSxF7vfbOyu.jpg",
               "sortOrder": 5,
               "description": "",
@@ -1922,7 +1922,7 @@
               "blockId": null
             },
             {
-              "id": "ee87d51e-f4a3-4c7c-8f86-62a4b6d4d3b9",
+              "id": "01a0cd52-648f-726f-b0ce-508153e23f85",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/9NO6FL5EmbBk.jpg",
               "sortOrder": 6,
               "description": "",
@@ -1930,7 +1930,7 @@
               "blockId": null
             },
             {
-              "id": "d1f80b29-356e-40b9-b203-8d16b665f5b3",
+              "id": "01a0cd52-648f-72aa-a8ad-acb8cca64ebd",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/QGRb7xljWZKv.jpg",
               "sortOrder": 7,
               "description": "",
@@ -1938,7 +1938,7 @@
               "blockId": null
             },
             {
-              "id": "42be61cc-6114-42ba-a97a-235be46c3b4b",
+              "id": "01a0cd52-648f-72c6-994e-604ce96161e8",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/05/08/NaLzVF9C20qS.jpg",
               "sortOrder": 8,
               "description": "",
@@ -2524,6 +2524,35 @@
                 "description": ""
               },
               "enabled": true
+            }
+          ]
+        },
+        "landing": {
+          "sections": [
+            {
+              "enabled": false,
+              "hero": {
+                "images": [ ]
+              },
+              "about": [
+                {
+                  "blockId": "sample-card-1",
+                  "propertyId": "sample-property-1",
+                  "propertyName": "현재 숙소",
+                  "title": "",
+                  "images": [ ],
+                  "order": 1
+                },
+                {
+                  "blockId": "sample-card-2",
+                  "propertyId": "sample-property-2",
+                  "propertyName": "연결 숙소 2",
+                  "domain": "http://localhost:8000/t-template-D",
+                  "title": "",
+                  "images": [ ],
+                  "order": 2
+                }
+              ]
             }
           ]
         }
